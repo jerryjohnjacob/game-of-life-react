@@ -1,0 +1,13 @@
+.cell {
+    width: 20px;
+    height: 20px;
+    border: thin solid lightgray;
+    background-color: white;
+    display: inline-block;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+
+.cell.alive {
+    background-color: #FF6600;
+}
